@@ -18,7 +18,7 @@ const ImageGenerator = () => {
     setImage(null);
 
     try {
-      const response = await axios.post('https://imagegenrator-9.onrender.com/generate-image', { prompt });
+      const response = await axios.post('https://imagegenrator-10.onrender.com/generate-image', { prompt });
       setImage(response.data.image); 
     } catch (err) {
       setError('Error generating image.');
