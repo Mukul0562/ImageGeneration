@@ -32,7 +32,7 @@ const ContactForm = () => {
 
     onSubmit: async (values, { resetForm }) => {
       try {
-        const res = await fetch('https://imagegenrator-9.onrender.com/api/leads', {
+        const res = await fetch('https://imagegenrator-10.onrender.com/api/leads', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(values),
